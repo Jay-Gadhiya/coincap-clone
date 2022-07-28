@@ -18,8 +18,8 @@ export const CurrencyTable =() => {
   return (
       <>
         <main className="main-container">
-        <section className="back-box-container">
-            <ul className="back-box">
+        <section className="back-box-container e-hide">
+            <ul className="back-box b-hide">
                 <li>
                     <p>Market cap</p>
                     <p>$1.32T</p>
@@ -54,11 +54,11 @@ export const CurrencyTable =() => {
                     <th>Rank</th>
                     <th className="name-td-box">Name</th>
                     <th className="price-li">Price</th>
-                    <th>Market cap</th>
-                    <th>VWAP(24Hr)</th>
-                    <th>Supply</th>
-                    <th>Volume(24Hr)</th>
-                    <th>Change(24Hr)</th>
+                    <th className="b-hide">Market cap</th>
+                    <th className="a-hide">VWAP(24Hr)</th>
+                    <th className="a-hide">Supply</th>
+                    <th className="b-hide">Volume(24Hr)</th>
+                    <th className="d-hide">Change(24Hr)</th>
                 </tr>
             </thead>
             <tbody>

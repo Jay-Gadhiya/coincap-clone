@@ -42,11 +42,11 @@ export const CurrencyBox = ({
         </div>
       </td>
       <td>${priceUsdValue}</td>
-      <td>${marketCapValue}</td>
-      <td>${VWAPValue} </td>
-      <td>${supplyValue}</td>
-      <td>${volumeValue}</td>
-      <td>{changePercentNumber} %</td>
+      <td className="b-hide">${marketCapValue}</td>
+      <td className="a-hide">${VWAPValue} </td>
+      <td className="a-hide">${supplyValue}</td>
+      <td className="b-hide">${volumeValue}</td>
+      <td className="d-hide">{changePercentNumber} %</td>
     </tr>
   );
 };

@@ -1,84 +1,133 @@
-
 .main-container {
-    position: relative;
+  position: relative;
 }
 
 table {
-    border-collapse:separate;
-    border-spacing: 3rem 10px;
+  border-collapse: separate;
+  border-spacing: 3rem 10px;
 }
 
-
 th {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 td {
-    text-align: center;
+  text-align: center;
 }
 
 .name-td-box {
-    width: 15rem;
-    text-align: left;
+  width: 15rem;
+  text-align: left;
 }
 
 .table-section {
-    background-color: #f4f4f4;
-    border-radius: 6px;
-    width: max-content;
-    margin: auto;
-    margin-top: -4rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  width: max-content;
+  margin: auto;
+  margin-top: -4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .coin-icon {
-    height: 35px;
-    width: 35px;
+  height: 35px;
+  width: 35px;
 }
 
 .coin-icon-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .coin-icon-name-wrapper {
-    line-height: 5px;
+  line-height: 5px;
 }
 
 .coin-name {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .coin-subname {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .light-text {
-    color: #797878;
-    font-weight: normal
+  color: #797878;
+  font-weight: normal;
 }
 
 /* back box */
 
 .back-box-container {
-    display: flex;
-    height: 10rem;
-    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255);
+  display: flex;
+  height: 10rem;
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+    rgb(255, 255, 255);
+  width: 100%;
+  max-width: 100%;
 }
 
 .back-box {
-    display: flex;
-    line-height: 3px;
-    gap: 3rem;
-    width: 100%;
-    max-width: 75%;
-    margin: 0 auto;
-    justify-content: space-between;
-    color: white;
-    font-size: 1.2rem;
+  display: flex;
+  line-height: 3px;
+  gap: 3rem;
+  width: 100%;
+  max-width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .back-box li {
-    text-align: center;
+  text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .a-hide {
+    display: none;
+  }
+
+  .back-box {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .a-hide {
+    display: none;
+  }
+
+  .b-hide {
+    display: none;
+  }
+
+  .back-box {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 714px) {
+    .name-td-box {
+        max-width: 9rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 585px) {
+   .d-hide {
+       display: none;
+   }
+}
+
+@media screen and (max-width: 460px) {
+    .e-hide {
+        display: none;
+    }
+
+    .table-section {
+        margin-top: 3rem;
+    }
+ }

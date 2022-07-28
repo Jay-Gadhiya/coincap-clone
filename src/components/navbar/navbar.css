@@ -43,3 +43,13 @@ nav {
     transition: transform 0.2s;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 714px) {
+    .c-hide {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+}
