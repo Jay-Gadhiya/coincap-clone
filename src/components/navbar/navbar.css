@@ -37,3 +37,9 @@ nav {
     font-size: .8rem;
     font-weight: bold;
 }
+
+.wallet-button:hover {
+    transform: translateY(-5%);
+    transition: transform 0.2s;
+    cursor: pointer;
+  }

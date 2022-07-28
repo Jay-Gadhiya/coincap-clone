@@ -7,10 +7,6 @@ function App() {
     <div className='App'>
       <Navbar />
       <CurrencyTable /> 
-
-        <div className='block-ele'>
-            <button className="wallet-button">View More</button>
-        </div>
     </div>
   );
 }
